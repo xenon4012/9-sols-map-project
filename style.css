@@ -1,0 +1,155 @@
+/* Nine Sols Theme */
+
+body {
+    background: #0b0f14;
+    color: #e8d9b5;
+    font-family: "Segoe UI", sans-serif;
+    margin: 0;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+
+    background-image:
+        radial-gradient(circle at top, #18212f 0%, #0b0f14 60%);
+}
+
+/* Base Card */
+
+div {
+    padding: 1rem;
+    border-radius: 12px;
+    border: 2px solid rgba(255,255,255,.1);
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+    transition: 0.3s;
+}
+
+div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(255,215,100,.25);
+}
+
+h3 {
+    margin-top: 0;
+    border-bottom: 1px solid rgba(255,255,255,.15);
+    padding-bottom: .5rem;
+    color: #ffd97a;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #f3e6c0;
+    text-decoration: none;
+    display: block;
+    padding: .3rem 0;
+}
+
+a:hover {
+    color: #ffd97a;
+}
+
+/* Apeman Facility */
+.apeman-facility {
+    background: #409c79;
+    border-color: #88e4c1;
+}
+
+/* Central Transport Hub */
+.central-transport-hub {
+    background: #3d6179;
+    border-color: #8baec5;
+}
+
+/* New Kunlun Central Hall */
+.new-kunlun-central-hall {
+    background: #8b9e89;
+    border-color: #c7dfc4;
+}
+
+/* Power Reservoir */
+.power-reservoir {
+    background: #496c83;
+    border-color: #5f7d91;
+}
+
+/* Cortex Center */
+.cortex-center {
+    background: #388686;
+    border-color: #9efafa;
+}
+
+/* Factory */
+.factory {
+    background: #4a2418;
+    border-color: #d97038;
+}
+
+/* Warehouse */
+.warehouse {
+    background: #367faf;
+    border-color: #88b7d6;
+}
+
+/* Grotto of Scriptures */
+.grotto-scriptures {
+    background: #91411c;
+    border-color: #f06e32;
+}
+
+/* Empyrean District */
+.empyrean-district {
+    background: #a38fac;
+    border-color: #a38fac;
+}
+
+/* Water & Oxygen Synthesis */
+.water-oxygen {
+    background: #cfad62;
+    border-color: #d8c18f;
+}
+
+/* Tiandao Research Center */
+.tiandao-research {
+    background: #834c85;
+    border-color: #d371d6;
+}
+
+/* Peach Blossoms Village */
+.peach-blossoms {
+    background: #b85574;
+    border-color: #ff9ec8;
+}
+
+div {
+    position: relative;
+    overflow: visible;
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255,215,122,.15),
+            transparent 40%
+        );
+
+    pointer-events: none;
+}
+
+h3 {
+    text-shadow:
+        0 0 10px rgba(255,215,122,.4),
+        0 0 20px rgba(255,215,122,.2);
+}
