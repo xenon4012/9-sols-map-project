@@ -44,6 +44,18 @@ li {
     padding: 0;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
 a {
     color: #f3e6c0;
     text-decoration: none;
